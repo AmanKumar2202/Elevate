@@ -1,0 +1,84 @@
+{
+  "company": "Ashoka Textiles",
+  "description": "3-level hierarchy: Rohan → Priya → 6 reports",
+  "users": [
+    {
+      "name": "Rohan Mehta",
+      "email": "rohan@ashoka.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": null,
+      "title": "VP Engineering (reports to COO)"
+    },
+    {
+      "name": "Priya Sharma",
+      "email": "priya@ashoka.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Rohan Mehta",
+      "title": "Engineering Manager"
+    },
+    {
+      "name": "Aditya Verma",
+      "email": "aditya@ashoka.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Priya Sharma",
+      "title": "Software Engineer"
+    },
+    {
+      "name": "Sneha Patel",
+      "email": "sneha@ashoka.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Priya Sharma",
+      "title": "Software Engineer"
+    },
+    {
+      "name": "Vikram Singh",
+      "email": "vikram@ashoka.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Priya Sharma",
+      "title": "Senior Developer"
+    },
+    {
+      "name": "Meena Raj",
+      "email": "meena@ashoka.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Priya Sharma",
+      "title": "Frontend Developer"
+    },
+    {
+      "name": "Ravi Kumar",
+      "email": "ravi@ashoka.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Priya Sharma",
+      "title": "Backend Developer"
+    },
+    {
+      "name": "Pooja Nair",
+      "email": "pooja@ashoka.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Priya Sharma",
+      "title": "QA Engineer"
+    },
+    {
+      "name": "Kavita Iyer",
+      "email": "kavita@ashoka.com",
+      "password": "password123",
+      "role": "HR",
+      "manager": null,
+      "title": "HR Manager",
+      "note": "Cross-cutting role — not in any reporting line, has read access to entire company"
+    }
+  ],
+  "cycles": [
+    { "month": 5, "year": 2026, "label": "May 2026 — fully submitted" },
+    { "month": 6, "year": 2026, "label": "June 2026 — partially submitted (Priya missing Meena + Ravi)" },
+    { "month": 7, "year": 2026, "label": "July 2026 — current cycle, no submissions yet" }
+  ]
+}

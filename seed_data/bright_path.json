@@ -1,0 +1,92 @@
+{
+  "company": "Bright Path Consulting",
+  "description": "Flat hierarchy: Founder → 8 direct reports (no middle layer)",
+  "users": [
+    {
+      "name": "Arjun Kapoor",
+      "email": "arjun@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": null,
+      "title": "Founder & CEO"
+    },
+    {
+      "name": "Neha Gupta",
+      "email": "neha@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Arjun Kapoor",
+      "title": "Business Analyst"
+    },
+    {
+      "name": "Siddharth Jain",
+      "email": "siddharth@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Arjun Kapoor",
+      "title": "Consultant"
+    },
+    {
+      "name": "Ananya Bose",
+      "email": "ananya@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Arjun Kapoor",
+      "title": "Senior Consultant"
+    },
+    {
+      "name": "Rahul Desai",
+      "email": "rahul@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Arjun Kapoor",
+      "title": "Associate"
+    },
+    {
+      "name": "Tanvi Choudhury",
+      "email": "tanvi@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Arjun Kapoor",
+      "title": "Analyst"
+    },
+    {
+      "name": "Kunal Shah",
+      "email": "kunal@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Arjun Kapoor",
+      "title": "Senior Analyst"
+    },
+    {
+      "name": "Ishita Menon",
+      "email": "ishita@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Arjun Kapoor",
+      "title": "Consultant"
+    },
+    {
+      "name": "Divya Reddy",
+      "email": "divya@brightpath.com",
+      "password": "password123",
+      "role": "EMPLOYEE",
+      "manager": "Arjun Kapoor",
+      "title": "Junior Analyst"
+    },
+    {
+      "name": "Lakshmi Nair",
+      "email": "hr@brightpath.com",
+      "password": "password123",
+      "role": "HR",
+      "manager": null,
+      "title": "People Operations",
+      "note": "Cross-cutting HR role — not in any reporting line"
+    }
+  ],
+  "cycles": [
+    { "month": 5, "year": 2026, "label": "May 2026 — all 8 submitted" },
+    { "month": 6, "year": 2026, "label": "June 2026 — only 5 of 8 submitted" },
+    { "month": 7, "year": 2026, "label": "July 2026 — current cycle, no submissions yet" }
+  ]
+}
