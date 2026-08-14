@@ -2,7 +2,12 @@
 
 Multi-tenant monthly feedback app built with FastAPI, PostgreSQL, React, and TypeScript.
 
-## Run
+## Live Demo
+
+- **Web App (Vercel):** [https://elevate-bice-chi.vercel.app/](https://elevate-bice-chi.vercel.app/)
+- **API Docs (Render):** [https://elevate-hdno.onrender.com/api/docs](https://elevate-hdno.onrender.com/api/docs)
+
+## Run Locally (Docker)
 
 ```bash
 git clone https://github.com/AmanKumar2202/Elevate.git
@@ -10,8 +15,8 @@ cd performance-feedback
 docker compose up --build
 ```
 
-- App: `http://localhost:5173`
-- API docs: `http://localhost:8000/api/docs`
+- Local App: `http://localhost:5173`
+- Local API docs: `http://localhost:8000/api/docs`
 
 Migrations and seed data run automatically.
 
